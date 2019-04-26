@@ -1,0 +1,124 @@
+body {
+	height: 100vh;
+	background-image: url(gradientBackground.png);
+	background-repeat: no-repeat;
+	background-color: #FDD6E3;
+	background-size: cover;
+	
+}
+
+.coolbg {
+	height: 100vh;
+	background-image: url(gradientBackground.png);
+	background-repeat: no-repeat;
+	background-color: #FDD6E3;
+	background-size: cover;
+}
+
+
+.warmbg {
+	height: 100vh;
+	background-image: url(sunnyGradient.png);
+	background-repeat: no-repeat;
+	background-size: cover;	
+	background-color: #F8C26F;
+}
+
+
+.title, h1 {
+	font-family: 'Satisfy', cursive; 
+	text-align: center;
+	font-size: 40px;
+	color: #333333;	
+}
+
+.subtitle {
+	font-family: 'Satisfy', cursive; 
+	font-size: 35px;
+	color: #333333;	
+}
+
+.cityName {
+	font-family: 'Satisfy', cursive; 
+	font-size: 40px;
+	color: #333333;	
+	text-decoration: underline;
+}
+
+
+p, div, input, select {
+	font-family: 'Slabo 27px', serif; 
+	font-size: 30px;
+	color: #333333;
+}
+
+
+.info-container {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox; /*Internet Explorer 10*/
+	display: -webkit-flex;
+	display: flex; 
+	justify-content: center;  
+	flex-flow: row wrap;
+}
+
+
+.info {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox; /*Internet Explorer 10*/
+	display: -webkit-flex;
+	display: flex;
+	width: 400px;
+	height: 300px;
+	justify-content: center;
+	flex-flow: column wrap;
+	align-items: center;
+}
+
+.todaysInfo {
+	border-radius:5px;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.search {
+	position: absolute;
+	left: 50%;
+
+	-webkit-transform:translate(-50%,-50%);
+		transform:translate(-50%,-50%);
+}
+
+#searchButton {
+	width: 40px;
+	height:40px;
+	color: black;
+}
+
+#searchText {
+	justify-content: center;
+	color: black;
+	height:40px;
+	width: 500px;
+	border-radius: 20px;
+	border-style:none;
+	outline:none;
+	padding-right:1px;
+	padding-left:1px;
+	text-align:center;
+}
+
+@media only screen and (max-width : 780px)
+{
+	{}
+	.search
+	{
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	#searchText  {
+		width: 95%;
+	}
+}

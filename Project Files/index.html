@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Weather App</title>
+<meta charset="UTF-8">
+<link href = "https://fonts.googleapis.com/css?family=Satisfy|Slabo+27px" rel="stylesheet">
+<link rel = "stylesheet" type = "text/css"  href = "mystyle.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel = "stylesheet" type = "text/css"  href = "iconscss/weather-icons.css">
+<!--The weather-icons.css above contains the weather icons/class names created by Erik Flowers: https://erikflowers.github.io/weather-icons/
+to replace the Open Weather API icons. The icons have been created as a web font, so all of the font files are in
+in the fonts folder.-->
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+
+<h1>The Weather App</h1>
+
+	<div class="search">
+		<input type="text" placeholder = "Enter City Name/Zip Code" id = "searchText">
+		<a id = "searchButton" href = "#"><i class = "fas fa-search"></i></a>
+    </div>
+  
+	</br>
+	</br>
+  
+	<div id="cityName" class = "cityName" align = "center"></div>
+	
+	<br/>
+	
+	<div class = "info-container">
+	
+		<div class = "info todaysInfo">
+			<div id = "todayDate" class = "subtitle"></div>
+			<div id = "description"></div>
+			<b><div id="temperature"></div></b>
+			<div id = "icon"></div>
+		</div>		
+		
+		<div class = "info">
+			<div id = "date1" class = "subtitle"></div>
+			<div id= "description1"></div>
+			<b><div id = "temp1"></div></b>
+			<div id = "icon1"></div>
+		</div>
+		
+		<div class = "info">
+			<div id = "date2" class = "subtitle"></div>
+			<div id="description2"></div>
+			<b><div id = "temp2"></div></b>
+			<div id = "icon2"></div>
+		</div>
+		
+		<div class = "info">
+			<div id = "date3" class = "subtitle"></div>
+			<div id="description3"></div>
+			<b><div id = "temp3"></div></b>
+			<div id = "icon3"></div>
+		</div>
+
+		<div class = "info">
+			<div id = "date4" class = "subtitle"></div>
+			<div id="description4"></div>
+			<b><div id = "temp4"></div></b>
+			<div id = "icon4"></div>
+		</div>
+	
+	</div>
+   
+   <script  src="script.js"></script>
+
+</body>
+</html>
